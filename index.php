@@ -1,5 +1,5 @@
 <?php
-
+include __DIR__ . '/partials/head.php';
 include_once __DIR__ . '/Models/Movie.php';
 
 $lotr = new Movie("Signore degli Anelli", ["fantasy", "epic", "cult"], 10, 200);
