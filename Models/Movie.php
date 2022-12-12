@@ -4,7 +4,7 @@ class Movie{
 
 public $title;
 
-public $genre;
+public $genre = array();
 
 public $rating;
 
@@ -13,7 +13,7 @@ public $minutes;
 public $lenght;
 
 
-function __construct(String $_title, $_genre = [], Int $_rating,$_minutes ){
+function __construct(String $_title, $_genre , Int $_rating, Int $_minutes ){
 
         $this->title = $_title;
         $this->genre = $_genre;
