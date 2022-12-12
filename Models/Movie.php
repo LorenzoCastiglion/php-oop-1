@@ -13,7 +13,7 @@ public $minutes;
 public $lenght;
 
 
-function __construct(String $_title, String $_genre, Int $_rating,$_minutes ){
+function __construct(String $_title, $_genre = [], Int $_rating,$_minutes ){
 
         $this->title = $_title;
         $this->genre = $_genre;
